@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a libreary created by facebook written un JavaScrip. Introduced concepts like components that helps to create complex UI's with less use of code, everything is modular, allow to make changes in the DOM using a virtual DOM with less use of memory.
+
 - [ ] What does it mean to _think_ in react?
+
+
 
 - [ ] Describe state.
 
+The state object is where you store property values that belongs to the component.
+
+When the state object changes, the component re-renders
+
 - [ ] Describe props.
+Props are arguments passed into React components
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A "side effect" is anything that affects something outside the scope of the function being executed. In react, the hook useEffect() it triggers everytime there isa  change in the virtual DOM. You can sync this effects using a state change passing it as a argument in the useEffect hook.
 
 ## Project Set Up
 
