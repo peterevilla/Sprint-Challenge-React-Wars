@@ -42,6 +42,9 @@ console.log(data)
           name={item.name}
           gender={item.gender}
           birth_year={item.birth_year}
+          height={item.height}
+          mass={item.mass}
+          hair_color={item.hair_color}
 
           
           

@@ -15,17 +15,17 @@ return (
 <CardGroup>
 <Col sm="" >
 
-<Card  body inverse color="success" >
+<Card  body inverse color="primary" >
     
     <CardBody>
       
       <CardTitle>Character: {props.name}</CardTitle>
-      <CardText>
-        <p>Gender: {props.gender}</p>
-        <p>Birth Year: {props.birth_year}</p>
-
-      </CardText>
-    
+      <CardText>Gender: {props.gender}</CardText>
+      <CardText>Birth Year: {props.birth_year}</CardText> 
+      <CardText>Height: {props.height}</CardText>
+      <CardText>Mass: {props.mass}</CardText>
+      <CardText>Hair Color: {props.hair_color}</CardText>  
+        
     </CardBody>
 
 </Card>
